@@ -3,9 +3,30 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7;
+}
+body {
+  background-color: antiquewhite;
 }
 #main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1,
+h2 {
+  text-align: right;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
