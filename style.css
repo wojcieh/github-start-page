@@ -6,8 +6,23 @@
   line-height: 1.7;
 }
 body {
-  background-color: antiquewhite;
+  background-color: rgb(196, 196, 196);
 }
+#head {
+  text-align: left;
+  margin: 10px 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head > h1 {
+  font-size: medium;
+}
+#head > h2 {
+  font-size: small;
+}
+
 #main {
   display: flex;
   justify-content: center;
@@ -20,13 +35,14 @@ body {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-h1,
-h2 {
-  text-align: right;
-}
+
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+
+.socialicon {
+  width: 40px;
 }
